@@ -8,7 +8,7 @@ Project created for the Software Engineering I and II course at UNIFTEC – Univ
 
 <h3>About</h3>
 
-- A demo Xamarin.Android application built to showcase the capabilities and integration process of the Market Helper platform.
+- A demo Xamarin.Android application built to showcase the capabilities and integration process of the MarketHelper platform.
 
 <h3>Developers</h3>
 
