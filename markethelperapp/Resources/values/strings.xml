@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">markethelper</string>
+    <string name="title_home">Home</string>
+    <string name="title_purchase">Compras</string>
+    <string name="title_profile">Perfil</string>
+	  <string name="title_forgot_password">Recuperação de senha</string>
+    <string name="title_account_create">Cadastre-se</string>
+    <string name="title_account">Minha conta</string>
+    <string name="title_account_data">Meus dados</string>
+</resources>

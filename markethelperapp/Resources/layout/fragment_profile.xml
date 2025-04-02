@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gerencie seu perfil"
+            android:background="@drawable/rounded_corner"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        android:gravity="center">
+
+     <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_profile"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorAccent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lblProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Márcio Ribeiro"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="28sp"/>
+
+     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lblProfileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="march_flame@hotmail.com"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"
+        android:textSize="18sp" />
+        
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAccount"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            app:cornerRadius="25dp"
+            android:text="Conta"
+            android:backgroundTint="@color/colorAccent"
+            app:icon="@mipmap/ic_action_profile"
+            app:iconSize="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHelp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            app:cornerRadius="25dp"
+            android:text="Ajuda"
+            android:backgroundTint="@color/colorPrimary"
+            app:icon="@mipmap/ic_action_help"
+            app:iconSize="24dp"
+             />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExit"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            app:cornerRadius="25dp"
+            android:text="Sair"
+            android:backgroundTint="@color/colorPrimary"
+            app:icon="@mipmap/ic_action_exit"
+            app:iconSize="24dp"
+             />
+    </LinearLayout>      
+
+</LinearLayout>
