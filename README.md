@@ -1,4 +1,4 @@
-# markethelperapp
+# markethelper-app
 
 ![Built with](https://img.shields.io/badge/built%20with-Xamarin.Android-3498DB)
 ![Language](https://img.shields.io/badge/language-C%23-512BD4)
